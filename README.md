@@ -37,3 +37,21 @@ from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for
 more details.
+
+## Running Tests
+
+First build by running this command in anchor folder:
+```
+anchor build
+```
+
+Then copy the "voting.so" file from "target/deploy" folder to "tests/fixtures".
+
+Finally run this command in anchor folder:
+```
+anchor test
+```
+
+## Credits
+Based on [Solana Developer Bootcamp 2024 - Learn Blockchain and Full Stack Web3 Development - Projects 1-9
+](https://www.youtube.com/watch?v=amAq-WHAFs8)
